@@ -10,12 +10,12 @@ python3 bisectionAnalysis.py -f <function> -l <lower number of range> -h <higher
 **-f** : To initialize the function. Only one parameter (x) accepted. The function you provide must be formatted as Python scripts. You can't use any other unknown except (lower case) "x".
 
 For example, if you want to write a function like this:
-```python
+```math
 15(x)^3 + (14x)^2 + |-5| + 10x^(-1)
 ```
 You need to write it as like this:
 ```python
-15(x**3) + (14x)**2 + abs(-5) + 10(x**(-1))
+15(x**3) + (14*x)**2 + abs(-5) + 10(x**(-1))
 ```
 >NOTE: Math library is included. You can use it.
 For more information: https://docs.python.org/3/library/math.html
